@@ -13,8 +13,10 @@ permalink:        pretty
 title:            Data<br>Thrust
 tagline:          'Data Enthusiast Learning Resource'
 description:      'Place where you can find the facts on various topics backed by data and extensive research along with the learning tutorials.'
-url:              http://datathrust.github.io
+url: "https://himanshu-aggarwal0909.github.io/datathrust.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:          /
+
+github_username:  himanshu-aggarwal0909
 
 author:
   name:           'Himanshu Aggarwal'
@@ -39,7 +41,9 @@ whitelist:
   - jekyll-paginate
   - jekyll-redirect-from
 
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - github-pages
 
 paginate: 2
 paginate_path: "page:num"
