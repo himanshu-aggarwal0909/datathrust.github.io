@@ -15,7 +15,7 @@ title:            'Data&#013Thrust'
 tagline:          'Data Enthusiast Learning Resource'
 description:      'Place where you can find the facts on various topics backed by data and extensive research along with the learning tutorials.'
 baseurl:          "/"
-url: "https://himanshu-aggarwal0909.github.io/datathrust.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://himanshu-aggarwal0909.github.io/datathrust.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 github_username:  himanshu-aggarwal0909
