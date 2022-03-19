@@ -14,7 +14,7 @@ Pipeline are made up of a series of steps implemented in a specific order to pro
 Over the time, as the business usecases increases, large number of jobs keeps on adding in the pipeline and the directed acyclic graph(DAG) of jobs gets complex and messy.
 
 <figure>
-<img src="/images/azkaban_complex_dags.png"/>
+<img src="{{ site.url }}/images/azkaban_complex_dags.png"/>
 <figcaption align = "center"><i>Azkaban Complex Job DAG</i></figcaption>
 </figure>
 
