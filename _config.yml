@@ -11,7 +11,7 @@ permalink: /:categories/:title:output_ext
 ##relative_permalinks: true
 
 # Setup
-title:            Data<br>Thrust
+title:            'Data&#013Thrust'
 tagline:          'Data Enthusiast Learning Resource'
 description:      'Place where you can find the facts on various topics backed by data and extensive research along with the learning tutorials.'
 baseurl:          "/"
