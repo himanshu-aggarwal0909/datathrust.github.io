@@ -6,7 +6,8 @@ kramdown:
   input: GFM
 
 # Permalinks
-permalink:        pretty
+##permalink:        pretty
+permalink: /:categories/:title:output_ext
 ##relative_permalinks: true
 
 # Setup
@@ -23,7 +24,7 @@ author:
   name:           'Himanshu Aggarwal'
   url:            https://twitter.com/mdo
 
-paginate:         5
+paginate:         2
 
 # Custom vars
 version:          2.1.0
@@ -35,6 +36,7 @@ gems:
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-relative-links
 whitelist:
   - jekyll-coffeescript
   - jekyll-gist
@@ -52,4 +54,4 @@ gems: [jekyll-gist]
 ## custom end
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/himanshu-aggarwal0909/datathrust.github.io

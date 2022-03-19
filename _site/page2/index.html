@@ -16,21 +16,21 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href=/public/css/poole.css>
+  <link rel="stylesheet" href=/public/css/syntax.css>
+  <link rel="stylesheet" href=/public/css/hyde.css>
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png>
+                                 <link rel="shortcut icon" href="/public/favicon.ico>
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body>
+  <body class="theme-base-0d">
 
     <div class="sidebar">
   <div class="container sidebar-sticky">
@@ -56,10 +56,16 @@
       
         
           
-            <a class="sidebar-nav-item" href="/about/">About</a>
+            <a class="sidebar-nav-item" href="/about.html">About</a>
           
         
       
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/data_engineer_code_wall.html">Data Engineer Code Wall</a>
+          
         
       
         
@@ -75,9 +81,11 @@
         
       
 
-      <a class="sidebar-nav-item" href="https://github.com/poole/hyde/archive/v2.1.0.zip">Download</a>
-      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    <a class="sidebar-nav-item" href="https://github.com/himanshu-aggarwal0909/datathrust.github.io">GitHub Contribute</a>
+
+     <!--  <a class="sidebar-nav-item" href="https://github.com/himanshu-aggarwal0909/datathrust.github.io/archive/v2.1.0.zip">Download</a> -->
+      <!-- <a class="sidebar-nav-item" href="https://github.com/himanshu-aggarwal0909/datathrust.github.io">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.1.0</span> -->
     </nav>
 
     <p>&copy; 2022. All rights reserved.</p>
@@ -86,27 +94,43 @@
 
 
     <div class="content container">
-      <div class="posts">
+      <h1>All Posts</h1>
+<div class="posts">
   
   <div class="post">
-    <h1 class="post-title">
-      <a href="/2012/02/06/whats-jekyll/">
-        What's Jekyll?
+    <h2 class="post-title">
+      <a href="/data/engineer/code/wall/running-redshift-sql-queries-via-jdbc.html">
+        Running SQL Queries on postgresql/redshift using python.
       </a>
-    </h1>
+    </h2>
 
-    <span class="post-date">06 Feb 2012</span>
+    <span class="post-date">01 Mar 2022</span>
 
-    <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+    Installing psycopg2 python3 -m pip install psycopg2-binary Simple Code Template import psycopg2 def get_connection(redshift_connection_details): """ This function is used to set up a connection on the passed postgresql database. :param: redshift_connection_details (connection details dictionary required keys (host, user, password, database,...
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/python/tutorials/python-quick-reference-guide.html">
+        Python Programming language Quick Reference Guide (beginner guide)
+      </a>
+    </h2>
 
-<blockquote>
-  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+    <span class="post-date">01 Mar 2022</span>
 
-<p>It’s an immensely useful tool and one we encourage you to use here with Hyde.</p>
+    Python Programming language Quick Reference Guide (beginner guide). A popular programming language and becoming a de-facto language in the field of Data Science. Having 2nd Highest TIOBE index as of May, 2021. Some KeyPoints: It is an interpreted Language. A...
+  </div>
+  
+  <div class="post">
+    <h2 class="post-title">
+      <a href="/data/engineer/code/wall/python-azkaban-running-selective-job.html">
+        Running Azkaban Jobs Using Python
+      </a>
+    </h2>
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+    <span class="post-date">01 Mar 2022</span>
 
+    Azkaban is a workflow orchestrator, used to schedule big data jobs. Pipeline are made up of a series of steps implemented in a specific order to process data and transfer it from one system to another. Over the time, as...
   </div>
   
 </div>
@@ -116,9 +140,9 @@
     <span class="pagination-item older">Older</span>
   
   
-    
-      <a class="pagination-item newer" href="/">Newer</a>
-    
+    <!-- 
+      <a class="pagination-item newer" href="">Newer</a>
+     -->
   
 </div>
     </div>
