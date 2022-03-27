@@ -12,8 +12,8 @@ permalink: /:categories/:title:output_ext
 
 # Setup
 title:            'Data&#013Thrust'
-tagline:          'Data Enthusiast Learning Resource'
-description:      'Place where you can find the facts on various topics backed by data and extensive research along with the learning tutorials.'
+tagline:          'Data Enthusiast Resource'
+description:      'Data Enthusiast Resource'
 baseurl:          "/"
 url: "http://datathrust.in" # the base hostname & protocol for your site, e.g. http://example.com
 
