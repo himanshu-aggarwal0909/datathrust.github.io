@@ -34,7 +34,7 @@ import traceback
 # requests.packages.urllib3.disable_warnings()
 
 # Define azkaban address, login information
-str_url = 'http://10.70.29.144:8081'
+str_url = 'http://a.b.c.d:8081'
 
 
 class ParseKwargs(argparse.Action):

@@ -10,6 +10,23 @@ title: Data Engineer Code Wall
 </p>
 <br>
 
+<table>
+<tr>
+	<th align="left"> Roadmap (with full resources) </th>
+    <td><li><a href="./data/engineer/code/wall/how-to-become-a-data-engineer.html">How to become a Data Engineer [Beginer + Advance Roadmap]</a></li></td>
+</tr>
+<tr> 
+<!-- 	<td>
+		<ul>
+			<li>Fetching data from OLTP on daily basis into s3/hdfs (</li>
+			<li>Fetching data from cassandra into s3/hdfs</li>
+		</ul>
+	</td> -->
+</tr>
+</table>
+
+---
+## Tools
 
 <table>
 <tr>
@@ -53,11 +70,6 @@ title: Data Engineer Code Wall
 </tr>
 </table> -->
 
-<br />
-
----
-## Tools
----
 
 <table>
 	<tr>
@@ -153,3 +165,5 @@ title: Data Engineer Code Wall
 		</td>
 	</tr>
 </table>
+
+---
